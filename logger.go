@@ -1,11 +1,11 @@
-// Package template provides a Logur adapter for TEMPLATE.
-package template
+// Package kit provides a Logur adapter for Go Kit logger.
+package kit
 
 import (
 	"github.com/goph/logur"
 )
 
-// Logger is a Logur adapter for TEMPLATE.
+// Logger is a Logur adapter for Go Kit logger.
 type Logger struct {
 }
 

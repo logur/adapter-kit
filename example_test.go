@@ -1,12 +1,12 @@
-package template_test
+package kit_test
 
 import (
-	templateadapter "logur.dev/adapter/template"
+	kitadapter "logur.dev/adapter/kit"
 )
 
 func ExampleNew() {
 	var l interface{}
-	logger := templateadapter.New(l)
+	logger := kitadapter.New(l)
 
 	// Output:
 	_ = logger
@@ -14,7 +14,7 @@ func ExampleNew() {
 
 // If logger is nil, a default instance is created.
 func ExampleNew_default() {
-	logger := templateadapter.New(nil)
+	logger := kitadapter.New(nil)
 
 	// Output:
 	_ = logger

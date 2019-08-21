@@ -1,17 +1,17 @@
-# Logur adapter for TEMPLATE
+# Logur adapter for [Go Kit logger](https://github.com/go-kit/kit/tree/master/log)
 
-[![CircleCI](https://circleci.com/gh/logur/adapter-template.svg?style=svg)](https://circleci.com/gh/logur/adapter-template)
-[![Coverage](https://gocover.io/_badge/logur.dev/adapter/template)](https://gocover.io/logur.dev/adapter/template)
-[![Go Report Card](https://goreportcard.com/badge/logur.dev/adapter/template?style=flat-square)](https://goreportcard.com/report/logur.dev/adapter/template)
-[![GolangCI](https://golangci.com/badges/github.com/logur/adapter-template.svg)](https://golangci.com/r/github.com/logur/adapter-template)
-[![Go Version](https://img.shields.io/badge/go%20version-%3E=1.11-61CFDD.svg?style=flat-square)](https://github.com/logur/adapter-template)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/logur.dev/adapter/template)
+[![CircleCI](https://circleci.com/gh/logur/adapter-kit.svg?style=svg)](https://circleci.com/gh/logur/adapter-kit)
+[![Coverage](https://gocover.io/_badge/logur.dev/adapter/kit)](https://gocover.io/logur.dev/adapter/kit)
+[![Go Report Card](https://goreportcard.com/badge/logur.dev/adapter/kit?style=flat-square)](https://goreportcard.com/report/logur.dev/adapter/kit)
+[![GolangCI](https://golangci.com/badges/github.com/logur/adapter-kit.svg)](https://golangci.com/r/github.com/logur/adapter-kit)
+[![Go Version](https://img.shields.io/badge/go%20version-%3E=1.11-61CFDD.svg?style=flat-square)](https://github.com/logur/adapter-kit)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/logur.dev/adapter/kit)
 
 
 ## Installation
 
 ```bash
-go get logur.dev/adapter/template
+go get logur.dev/adapter/kit
 ```
 
 
@@ -21,11 +21,11 @@ go get logur.dev/adapter/template
 package main
 
 import (
-	templateadapter "logur.dev/adapter/template"
+	kitadapter "logur.dev/adapter/kit"
 )
 
 func main() {
-	logger := templateadapter.New(/*logger*/)
+	logger := kitadapter.New(/*logger*/)
 }
 ```
 
