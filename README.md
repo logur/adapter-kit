@@ -21,11 +21,12 @@ go get logur.dev/adapter/kit
 package main
 
 import (
+	"github.com/go-kit/kit/log"
 	kitadapter "logur.dev/adapter/kit"
 )
 
 func main() {
-	logger := kitadapter.New(/*logger*/)
+	logger := kitadapter.New(log.NewNopLogger())
 }
 ```
 

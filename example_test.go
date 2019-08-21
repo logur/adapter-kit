@@ -1,12 +1,13 @@
 package kit_test
 
 import (
+	"github.com/go-kit/kit/log"
+
 	kitadapter "logur.dev/adapter/kit"
 )
 
 func ExampleNew() {
-	var l interface{}
-	logger := kitadapter.New(l)
+	logger := kitadapter.New(log.NewNopLogger())
 
 	// Output:
 	_ = logger
