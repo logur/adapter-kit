@@ -1,7 +1,7 @@
 # Logur adapter for [Go Kit logger](https://github.com/go-kit/kit/tree/master/log)
 
-[![CircleCI](https://circleci.com/gh/logur/adapter-kit.svg?style=svg)](https://circleci.com/gh/logur/adapter-kit)
-[![Coverage](https://gocover.io/_badge/logur.dev/adapter/kit)](https://gocover.io/logur.dev/adapter/kit)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/logur/adapter-kit/CI?style=flat-square)
+[![Codecov](https://img.shields.io/codecov/c/github/logur/adapter-kit?style=flat-square)](https://codecov.io/gh/logur/adapter-kit)
 [![Go Report Card](https://goreportcard.com/badge/logur.dev/adapter/kit?style=flat-square)](https://goreportcard.com/report/logur.dev/adapter/kit)
 [![GolangCI](https://golangci.com/badges/github.com/logur/adapter-kit.svg)](https://golangci.com/r/github.com/logur/adapter-kit)
 [![Go Version](https://img.shields.io/badge/go%20version-%3E=1.11-61CFDD.svg?style=flat-square)](https://github.com/logur/adapter-kit)
@@ -35,7 +35,7 @@ func main() {
 
 When all coding and testing is done, please run the test suite:
 
-``` bash
+```bash
 $ make check
 ```
 
