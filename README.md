@@ -1,11 +1,10 @@
 # Logur adapter for [Go Kit logger](https://github.com/go-kit/kit/tree/master/log)
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/logur/adapter-kit/CI?style=flat-square)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/logur/adapter-kit/CI?style=flat-square)](https://github.com/logur/adapter-kit/actions?query=workflow%3ACI)
 [![Codecov](https://img.shields.io/codecov/c/github/logur/adapter-kit?style=flat-square)](https://codecov.io/gh/logur/adapter-kit)
 [![Go Report Card](https://goreportcard.com/badge/logur.dev/adapter/kit?style=flat-square)](https://goreportcard.com/report/logur.dev/adapter/kit)
-[![GolangCI](https://golangci.com/badges/github.com/logur/adapter-kit.svg)](https://golangci.com/r/github.com/logur/adapter-kit)
-[![Go Version](https://img.shields.io/badge/go%20version-%3E=1.11-61CFDD.svg?style=flat-square)](https://github.com/logur/adapter-kit)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/logur.dev/adapter/kit)
+![Go Version](https://img.shields.io/badge/go%20version-%3E=1.11-61CFDD.svg?style=flat-square)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/mod/logur.dev/adapter/kit)
 
 
 ## Installation
